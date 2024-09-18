@@ -4,7 +4,26 @@ body {
   background-color: #121212;
 }
 
+h1 {
+  color: #FFF;
+  opacity: 0.87;
+  font-family: "Open Sans"
+  font-weight: bold;
+  font-size: 28px;
+}
+
+h2 {
+  color: #FFF;
+  opacity: 0.87;
+  font-family: "Open Sans"
+  font-weight: bold;
+  font-size: 20px;
+}
+
 p {
   color: #FFF;
   opacity: 0.87;
+  font-family: "Open Sans"
+  font-weight: 500;
+  font-size: 14.5px;
 }
