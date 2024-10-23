@@ -1,29 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
-  background-color: #121212;
+	background-color: #121212;
+	font-family: Open Sans;
+	color: #EEEEEE;
 }
 
 h1 {
-  color: #FFF;
-  opacity: 0.87;
-  font-family: Open Sans;
-  font-weight: bold;
-  font-size: 28px;
+	font-weight: 800;
 }
 
-h2 {
-  color: #FFF;
-  opacity: 0.87;
-  font-family: Open Sans;
-  font-weight: bold;
-  font-size: 20px;
+a {
+	text-decoration: none;
+	color: #43bafa;
 }
 
-p {
-  color: #FFF;
-  opacity: 0.87;
-  font-family: Open Sans;
-  font-weight: 500;
-  font-size: 14.5px;
+#rank {
+	font-size: 20px;
+}
+
+#hotlink {
+	font-size: 20px;
+	font-weight: 650;
+}
+
+.help {
+	cursor: help;
+}
+
+.redlink {
+	color: #f26b6b;
 }
