@@ -4,6 +4,7 @@ body {
 	background-color: #121212;
 	font-family: Open Sans;
 	color: #EEEEEE;
+	font-size: 20px;
 }
 
 h1 {
@@ -13,10 +14,6 @@ h1 {
 a {
 	text-decoration: none;
 	color: #43bafa;
-}
-
-#rank {
-	font-size: 20px;
 }
 
 #hotlink {
