@@ -28,3 +28,13 @@ a {
 .redlink {
 	color: #f26b6b;
 }
+
+::-moz-selection {
+  color: #121212;
+  background: #EEEEEE;
+}
+
+::selection {
+  color: #121212;
+  background: #EEEEEE;
+}
