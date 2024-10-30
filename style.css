@@ -5,6 +5,7 @@ body {
 	font-family: Open Sans;
 	color: #EEEEEE;
 	font-size: 20px;
+	text-shadow: 2px 2px 10px #121212;
 }
 
 h1 {
@@ -30,11 +31,62 @@ a {
 }
 
 ::-moz-selection {
-  color: #121212;
-  background: #EEEEEE;
+	color: #121212;
+	background: #EEEEEE;
 }
 
 ::selection {
-  color: #121212;
-  background: #EEEEEE;
+	color: #121212;
+	background: #EEEEEE;
+}
+
+#infobox {
+  	padding: 10px;
+  	margin: 0;
+	box-shadow: 0px 10px 5px #000000;
+	border-radius: 15px;
+	background: rgb(34,34,34);
+	background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(18,18,18,1) 100%);
+}
+
+#agentbox {
+	width: 150px;
+	height: 50px;
+  	padding: 10px;
+  	margin: 0;
+	box-shadow: 0px 10px 5px #000000;
+	border-radius: 15px;
+	background: rgb(34,34,34);
+	background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(18,18,18,1) 100%);
+}
+
+#role {
+	position: absolute;
+	width: 128px;
+	height: 128px;
+	opacity: 0.1;
+	z-index: -1;
+}
+
+button {
+	border-radius: 5px;
+	border: none;
+	background-color: #00378c;
+	color: #EEEEEE;
+	font-family: Open Sans;
+	font-size: 20px;
+	box-shadow: 0px 5px 5px #000000;
+	text-shadow: 2px 2px 10px #121212;
+	cursor: pointer;
+}
+
+#graybtn {
+	border-radius: 5px;
+	border: none;
+	background-color: #333333;
+	color: #EEEEEE;
+	font-family: Open Sans;
+	font-size: 20px;
+	box-shadow: 0px 5px 5px #000000;
+	text-shadow: 2px 2px 10px #121212;
 }
