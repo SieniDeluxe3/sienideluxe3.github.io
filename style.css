@@ -90,16 +90,3 @@ button {
 	box-shadow: 0px 5px 5px #000000;
 	text-shadow: 2px 2px 10px #121212;
 }
-
-@-webkit-keyframes #notice {
-    0% {color: #f54242;}
-    20% {color: #eb2121;}
-    40% {color: #f54242;}
-    60% {color: #eb2121;}
-    80% {color: #f54242;}
-    100% {color: #eb2121}
-}
-
-li:nth-child(1){
-	-webkit-animation:#notice 5s infinite alternate;
-}
