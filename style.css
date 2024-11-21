@@ -91,7 +91,7 @@ button {
 	text-shadow: 2px 2px 10px #121212;
 }
 
-#notice {
+@-webkit-keyframes #notice {
     0% {color: #f54242;}
     20% {color: #eb2121;}
     40% {color: #f54242;}
